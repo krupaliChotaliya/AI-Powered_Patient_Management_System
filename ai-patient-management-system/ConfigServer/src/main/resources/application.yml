@@ -1,0 +1,54 @@
+#server:
+#  port: 8089
+#spring:
+#  application:
+#    name: Config-server
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/krupaliChotaliya/microservice-configuration
+#          clone-on-start: true
+#          default-label: master
+#
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    preferIpAddress: true
+#    hostname: localhost  # Ensure no invalid characters in hostname
+
+server:
+  port: 8089
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/krupaliChotaliya/microservice-configuration
+          clone-on-start: true
+          default-label: master
+
+eureka:
+  instance:
+    hostname: configServer
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+    info:
+      enabled: true
+

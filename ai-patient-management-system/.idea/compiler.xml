@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="appointment-service" />
+        <module name="common" />
+        <module name="doctor-service" />
+        <module name="api-gateway" />
+        <module name="kafka-configuration" />
+        <module name="patient-service" />
+        <module name="ConfigServer" />
+        <module name="ServiceRegistry" />
+        <module name="ai-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ai-service (1)" target="1.8" />
+      <module name="ai-service (2)" target="1.8" />
+      <module name="auth-service (1) (com.healthcare)" target="21" />
+      <module name="auth-service (2) (com.helthcare.authservice)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
+      <module name="ai-service" options="-parameters" />
+      <module name="ai-service (1)" options="-parameters" />
+      <module name="ai-service (2)" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="appointment-service" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
+      <module name="auth-service (2) (com.helthcare.authservice)" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="doctor-service" options="-parameters" />
+      <module name="kafka-configuration" options="-parameters" />
+      <module name="patient-service" options="-parameters" />
+    </option>
+  </component>
+</project>
