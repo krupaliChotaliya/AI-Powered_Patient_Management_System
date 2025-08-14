@@ -42,7 +42,7 @@ Each service handles a specific responsibility and communicates through REST API
 Make sure you have the following installed:  
 - **Java 17+**  
 - **Maven**  
-- **MySQL / PostgreSQL**  
+- **MySQL**  
 - **Ollama Model (DeepSeek R1)** installed & running  
 
 ### Installation & Run  
