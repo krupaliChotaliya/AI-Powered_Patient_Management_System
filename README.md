@@ -1,4 +1,4 @@
-# 🏥 AI-Powered Patient Management System (AI_Powered_PMS)
+# 🏥 AI-Powered Patient Management System
 
 An **AI-powered Patient Management System** built using **Microservice Architecture** that helps patients digitize their medical history, get AI-based diagnosis suggestions, and find doctors easily.  
 
