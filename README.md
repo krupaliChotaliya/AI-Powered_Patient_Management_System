@@ -48,7 +48,7 @@ Make sure you have the following installed:
 ### Installation & Run  
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AI_Powered_PMS.git
+git clone https://github.com/krupaliChotaliya/AI_Powered_PMS.git
 cd AI_Powered_PMS
 
 # Run each microservice separately
